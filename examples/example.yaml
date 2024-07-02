@@ -1,0 +1,12 @@
+name: contract_retention
+max-goroutines: 3
+config:
+  - timeout: 1000
+    max-goroutines: 3
+steps:
+  - name: get_carrier
+    path: https://internal-api.mercadolibre.com/shipping_carriers/1011802787?caller.scopes=admin
+    method: GET
+    headers:
+      - name: X-Internal-App-Name
+        value: Postman
