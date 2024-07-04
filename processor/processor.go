@@ -7,11 +7,16 @@ import (
 	"github.com/chjoaquim/go-rest-runner/processor/strategy"
 	"github.com/chjoaquim/go-rest-runner/reader"
 	"github.com/chjoaquim/go-rest-runner/writer"
+	"github.com/schollz/progressbar/v3"
 	log "github.com/sirupsen/logrus"
-	"io"
 	"os"
+	"strconv"
 	"sync"
 	"time"
+)
+
+var (
+	bar *progressbar.ProgressBar
 )
 
 func Run() *strategy.Output {
@@ -21,53 +26,52 @@ func Run() *strategy.Output {
 
 	filePath := flag.Lookup("data").Value.String()
 	csvFile, err := os.Open(filePath)
+
 	if err != nil {
 		log.Errorf("Error when trying to read csv file. %s", err)
 	}
 	defer csvFile.Close()
-
 	csvReader := csv.NewReader(csvFile)
+	lines, err := csvReader.ReadAll()
+	if err != nil {
+		log.Errorf("Error reading CSV file: %s\n", err)
+		os.Exit(1)
+	}
+
+	lineCount := len(lines)
+	bar = progressbar.Default(int64(lineCount), "Processing ...")
+	csvFile.Seek(0, 0)
+	csvReader = csv.NewReader(csvFile)
+
 	resultWriter := writer.NewResultWriter()
-	semaphore := make(chan struct{}, input.MaxGoroutines)
+	jobs := make(chan []string)
 	var wg sync.WaitGroup
 	line := 0
 
-	for {
-		row, err := csvReader.Read()
-		if err != nil {
-			if err == io.EOF {
-				break
-			}
-			log.Errorf("Erro ao ler o arquivo CSV:", err)
-			return nil
-		}
-
-		if len(row) < 1 {
-			log.Errorf("Linha inválida no arquivo CSV")
-			continue
-		}
-
-		log.Infoln("----")
-		log.Infoln(fmt.Sprintf("Processando Linha %d", line))
-		line++
-
-		vars := mapCSVToVariables(row)
-
+	for w := 1; w <= input.MaxGoroutines; w++ {
 		wg.Add(1)
-
-		go func(input reader.Input, resultWriter writer.Writer, vars map[string]interface{}, line int) {
-			defer wg.Done()
-			semaphore <- struct{}{}
-
-			outputs := runStep(input, vars)
-			appendOutputs(*outputs, resultWriter, line)
-
-			<-semaphore
-		}(input, resultWriter, vars, line)
-
-		wg.Wait()
+		go worker(input, jobs, resultWriter, &wg)
 	}
 
+	go func() {
+		for {
+			row, err := csvReader.Read()
+			if err != nil {
+				break
+			}
+
+			if len(row) < 1 {
+				log.Errorf("Linha inválida no arquivo CSV")
+				continue
+			}
+			line++
+			row = append(row, fmt.Sprintf("%d", line))
+			jobs <- row
+		}
+		close(jobs)
+	}()
+
+	wg.Wait()
 	end := time.Now()
 
 	err = resultWriter.Write("output.csv")
@@ -79,10 +83,22 @@ func Run() *strategy.Output {
 	return nil
 }
 
-func appendOutputs(outputs []strategy.Output, resultWriter writer.Writer, line int) {
+func worker(input reader.Input, line <-chan []string, resultWriter writer.Writer, wg *sync.WaitGroup) {
+	defer wg.Done()
+	for l := range line {
+		size := len(l)
+		num, _ := strconv.Atoi(l[size-1])
+		vars := mapCSVToVariables(l)
+		outputs := runStep(input, vars)
+		appendOutputs(outputs, resultWriter, num)
+		bar.Add(1)
+	}
+}
+
+func appendOutputs(outputs []strategy.Output, resultWriter writer.Writer, lineRef int) {
 	for _, output := range outputs {
 		result := writer.Result{
-			Line:        line,
+			Line:        lineRef,
 			Status:      output.Status,
 			Information: output.Message,
 		}
@@ -91,15 +107,14 @@ func appendOutputs(outputs []strategy.Output, resultWriter writer.Writer, line i
 	}
 }
 
-func runStep(input reader.Input, vars map[string]interface{}) *[]strategy.Output {
+func runStep(input reader.Input, vars map[string]interface{}) []strategy.Output {
 	outputs := make([]strategy.Output, 0)
 	for _, s := range input.Steps {
-		log.Infoln(s.Name)
 		output := runRequest(s, vars)
 		outputs = append(outputs, *output)
 	}
 
-	return &outputs
+	return outputs
 }
 
 func runRequest(step reader.Step, vars map[string]interface{}) *strategy.Output {
@@ -117,10 +132,6 @@ func mapCSVToVariables(row []string) map[string]interface{} {
 	}
 
 	return vars
-}
-
-func writeOutput(output strategy.Output) {
-
 }
 
 func buildFactory() strategy.Factory {

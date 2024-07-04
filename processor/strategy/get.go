@@ -17,7 +17,6 @@ func NewGetStrategy() GetStrategy {
 }
 
 func (g GetStrategy) DoRequest(path string, body string, headers map[string]interface{}, vars map[string]interface{}) Output {
-	log.Info("Doing GET request")
 	req, err := http.NewRequest(http.MethodGet, replaceVars(path, vars), nil)
 	if err != nil {
 		log.Error("Error when trying to create a REQUEST: %s", err)

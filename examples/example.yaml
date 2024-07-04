@@ -1,5 +1,5 @@
 name: contract_retention
-max-goroutines: 3
+max-goroutines: 1
 output: output.txt
 steps:
   - name: get_carrier
