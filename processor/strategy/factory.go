@@ -1,7 +1,7 @@
 package strategy
 
 type RequestStrategy interface {
-	DoRequest(string string, body string, headers map[string]interface{}) Output
+	DoRequest(string string, body string, headers map[string]interface{}, vars map[string]interface{}) Output
 }
 
 type Factory struct {
@@ -9,9 +9,9 @@ type Factory struct {
 }
 
 type Output struct {
-	Succeeded  bool
-	Message    string
-	StatusCode int
+	Succeeded bool
+	Message   string
+	Status    string
 }
 
 func (sf Factory) Find(requestType string) RequestStrategy {

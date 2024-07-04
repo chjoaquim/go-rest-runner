@@ -1,11 +1,9 @@
 name: contract_retention
 max-goroutines: 3
-config:
-  - timeout: 1000
-    max-goroutines: 3
+output: output.txt
 steps:
   - name: get_carrier
-    path: https://internal-api.mercadolibre.com/shipping_carriers/1011802787?caller.scopes=admin
+    path: https://internal-api.mercadolibre.com/shipping_carriers/$1?caller.scopes=admin
     method: GET
     headers:
       - name: X-Internal-App-Name

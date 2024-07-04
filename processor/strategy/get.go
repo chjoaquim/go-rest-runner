@@ -16,16 +16,15 @@ func NewGetStrategy() GetStrategy {
 	}
 }
 
-func (g GetStrategy) DoRequest(path string, body string, headers map[string]interface{}) Output {
+func (g GetStrategy) DoRequest(path string, body string, headers map[string]interface{}, vars map[string]interface{}) Output {
 	log.Info("Doing GET request")
-
-	req, err := http.NewRequest(http.MethodGet, path, nil)
+	req, err := http.NewRequest(http.MethodGet, replaceVars(path, vars), nil)
 	if err != nil {
 		log.Error("Error when trying to create a REQUEST: %s", err)
 		return Output{
-			Succeeded:  false,
-			Message:    err.Error(),
-			StatusCode: http.StatusInternalServerError,
+			Succeeded: false,
+			Message:   err.Error(),
+			Status:    "Error creating request",
 		}
 	}
 	setHeaders(headers, req)
@@ -34,9 +33,9 @@ func (g GetStrategy) DoRequest(path string, body string, headers map[string]inte
 	if err != nil {
 		log.Error("Error when trying to GET: %s", err)
 		return Output{
-			Succeeded:  false,
-			Message:    err.Error(),
-			StatusCode: http.StatusInternalServerError,
+			Succeeded: false,
+			Message:   err.Error(),
+			Status:    "Request Error",
 		}
 	}
 
@@ -44,21 +43,15 @@ func (g GetStrategy) DoRequest(path string, body string, headers map[string]inte
 	if err != nil {
 		log.Error("Error to read response body: %v", err)
 		return Output{
-			Succeeded:  false,
-			Message:    string(bodyBytes),
-			StatusCode: http.StatusInternalServerError,
+			Succeeded: false,
+			Message:   string(bodyBytes),
+			Status:    "Read body Error",
 		}
 	}
 
 	return Output{
-		Succeeded:  true,
-		Message:    string(bodyBytes),
-		StatusCode: resp.StatusCode,
-	}
-}
-
-func setHeaders(headers map[string]interface{}, req *http.Request) {
-	for key, value := range headers {
-		req.Header.Set(key, value.(string))
+		Succeeded: true,
+		Message:   string(bodyBytes),
+		Status:    http.StatusText(resp.StatusCode),
 	}
 }
