@@ -1,9 +1,9 @@
-name: get_carriers
+name: example
 max-goroutines: 1
 output: output.txt
 steps:
-  - name: get_carrier
-    path: https://internal-api.mercadolibre.com/shipping_carriers/$1?caller.scopes=admin
+  - name: get_example
+    path: https://some-api/$1
     method: GET
     headers:
       - name: X-Internal-App-Name
