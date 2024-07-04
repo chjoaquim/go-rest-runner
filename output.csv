@@ -1,28 +1,200 @@
-1;OK;{"id":871405189,"display_name":"RAMPONI","name":"RAMPONI TRANSPORTE E DISTRIBUICAO LTDA","roles":["LAST_MILE"],"user_id":617637434,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021507","alias":"RAMPONI","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"07876361000145"},"attributes":{"ie":"574100661110","rntrc":"44134670","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3129038576,"street_name":"Rua Sinfrônio Costa","street_number":"811","neighborhood":"Centro","municipality":"REGISTRO","state":"SP","city":"Registro","zip_code":"11900000"}},"nickname":"RAMPONI-3PL-MLB","date_created":1596056068,"last_updated":1718893250669,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-2;OK;{"id":652375997,"display_name":"MSR","name":"MSR TRANSPORTE DO BRASIL, REBOQUE & LOCADORA DE VEICULOS EIRELI","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":487570555,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020553","alias":"MSR","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"28809904000181"},"attributes":{"ie":"143899709","rntrc":"51903277","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3584283900,"street_name":"Rua Chile","street_number":"02","neighborhood":"Centro","municipality":"salvador","state":"BA","city":"Salvador","zip_code":"40020000","comment":"sala 802"}},"nickname":"MSR-3PL-MLB","date_created":1573240962,"last_updated":1716833972665,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-3;OK;{"id":1016190969,"display_name":"Murici","name":"Murici Transportes","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514174613,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101754","alias":"muricitransportes","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"24657266000170"},"attributes":{"ie":"140762905116","rntrc":"50213355","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3518697119,"street_name":"RUA CACHOEIRA DO SUL","street_number":"495","neighborhood":"VILA JAGUARA","municipality":"São Paulo","state":"SP","city":"São Paulo","zip_code":"05117010","comment":"LOTE D QUADRA7"}},"nickname":"MURICI2-3PL-MLB","date_created":1579018068,"last_updated":1718309656643,"carrier_creator_id":null,"carrier_updater_id":"ext_aristefa","carrier_status_modifier_id":null,"status_modified_at":null}
-4;OK;{"id":59903397,"display_name":"RodaCoop","name":"Cooperativa dos Transportadores Autônomos de Cargas, Passageiros e Serviços de Logística RodaCoop ","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":628400734,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021491","alias":"RodaCoop","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"37828375000154"},"attributes":{"ie":"0037890070098","rntrc":"52998666","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216527174,"street_name":"Rua Elce Ribeiro","street_number":"201","neighborhood":"São João Batista (Venda Nova)","municipality":"Belo Horizonte","state":"MG","city":"Belo Horizonte","zip_code":"31515190"}},"nickname":"RODACOOP-3PL-MLB","date_created":1597854156,"last_updated":1716834019429,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-5;OK;{"id":454673898,"display_name":"RIOBRANQUENSE","name":"COOPERATIVA RIOBRANQUENSE DE TRANSPORTES LTDA","roles":["LAST_MILE"],"user_id":476429946,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020151","alias":"cooperativariobranquensedetransportesltda","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"86442720000122"},"attributes":{"ie":"7208816380001","rntrc":"00426884","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216538355,"street_name":"MELO BARRETO","street_number":"2467","neighborhood":"COLONIA","municipality":"VISCONDE DO RIO BRANCO","state":"MG","city":"Visconde do Rio Branco","zip_code":"36520000"}},"nickname":"RIOBRANQUENSE-3PL-MLB","date_created":1570106802,"last_updated":1716834033660,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-6;OK;{"id":1011802787,"display_name":"CargoBR","name":"CARGOBR","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514172609,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101631","alias":"cargobr","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"31548672000160"},"attributes":{"ie":"373249855110","rntrc":"51272966","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":1246150289,"address_line":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI 1730","street_name":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI","street_number":"1730","neighborhood":"ITAQUI","municipality":"ITAPEVI","state":"SP","city":"ITAPEVI","zip_code":"06696110","comment":"GALPAO12"}},"nickname":"CARGO2-3PL-MLB","date_created":1579018018,"last_updated":1716834154503,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-7;OK;{"id":1542308672,"display_name":"Kangu Logistics","name":"Kangu","roles":["MILK_RUN","LAST_MILE","LOGISTICS_FM"],"user_id":515152232,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9699191602","alias":"kangu","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"30227267000187"},"attributes":{"ie":"120540242118","rntrc":"51843555","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":4941152020,"street_name":"Avenida dos Autonomistas","street_number":"900","neighborhood":"Vila Yara","state":"SP","city":"Osasco","zip_code":"06020012","comment":"ANDAR 2 SALA 401 A 406"}},"nickname":"KANGU-3PL-MLB","date_created":1579207422,"last_updated":1717517855732,"carrier_creator_id":null,"carrier_updater_id":"ext_samifran","carrier_status_modifier_id":null,"status_modified_at":null}
-8;OK;{"id":871405189,"display_name":"RAMPONI","name":"RAMPONI TRANSPORTE E DISTRIBUICAO LTDA","roles":["LAST_MILE"],"user_id":617637434,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021507","alias":"RAMPONI","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"07876361000145"},"attributes":{"ie":"574100661110","rntrc":"44134670","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3129038576,"street_name":"Rua Sinfrônio Costa","street_number":"811","neighborhood":"Centro","municipality":"REGISTRO","state":"SP","city":"Registro","zip_code":"11900000"}},"nickname":"RAMPONI-3PL-MLB","date_created":1596056068,"last_updated":1718893250669,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-9;Not Found;{"message":"Carrier not found: 6523759971"}
-10;OK;{"id":1016190969,"display_name":"Murici","name":"Murici Transportes","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514174613,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101754","alias":"muricitransportes","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"24657266000170"},"attributes":{"ie":"140762905116","rntrc":"50213355","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3518697119,"street_name":"RUA CACHOEIRA DO SUL","street_number":"495","neighborhood":"VILA JAGUARA","municipality":"São Paulo","state":"SP","city":"São Paulo","zip_code":"05117010","comment":"LOTE D QUADRA7"}},"nickname":"MURICI2-3PL-MLB","date_created":1579018068,"last_updated":1718309656643,"carrier_creator_id":null,"carrier_updater_id":"ext_aristefa","carrier_status_modifier_id":null,"status_modified_at":null}
-11;OK;{"id":59903397,"display_name":"RodaCoop","name":"Cooperativa dos Transportadores Autônomos de Cargas, Passageiros e Serviços de Logística RodaCoop ","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":628400734,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021491","alias":"RodaCoop","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"37828375000154"},"attributes":{"ie":"0037890070098","rntrc":"52998666","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216527174,"street_name":"Rua Elce Ribeiro","street_number":"201","neighborhood":"São João Batista (Venda Nova)","municipality":"Belo Horizonte","state":"MG","city":"Belo Horizonte","zip_code":"31515190"}},"nickname":"RODACOOP-3PL-MLB","date_created":1597854156,"last_updated":1716834019429,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-12;Not Found;{"message":"Carrier not found: 23"}
-13;OK;{"id":1011802787,"display_name":"CargoBR","name":"CARGOBR","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514172609,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101631","alias":"cargobr","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"31548672000160"},"attributes":{"ie":"373249855110","rntrc":"51272966","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":1246150289,"address_line":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI 1730","street_name":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI","street_number":"1730","neighborhood":"ITAQUI","municipality":"ITAPEVI","state":"SP","city":"ITAPEVI","zip_code":"06696110","comment":"GALPAO12"}},"nickname":"CARGO2-3PL-MLB","date_created":1579018018,"last_updated":1716834154503,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-14;Not Found;{"message":"Carrier not found: 15423086721"}
-15;OK;{"id":871405189,"display_name":"RAMPONI","name":"RAMPONI TRANSPORTE E DISTRIBUICAO LTDA","roles":["LAST_MILE"],"user_id":617637434,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021507","alias":"RAMPONI","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"07876361000145"},"attributes":{"ie":"574100661110","rntrc":"44134670","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3129038576,"street_name":"Rua Sinfrônio Costa","street_number":"811","neighborhood":"Centro","municipality":"REGISTRO","state":"SP","city":"Registro","zip_code":"11900000"}},"nickname":"RAMPONI-3PL-MLB","date_created":1596056068,"last_updated":1718893250669,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-16;OK;{"id":652375997,"display_name":"MSR","name":"MSR TRANSPORTE DO BRASIL, REBOQUE & LOCADORA DE VEICULOS EIRELI","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":487570555,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020553","alias":"MSR","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"28809904000181"},"attributes":{"ie":"143899709","rntrc":"51903277","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3584283900,"street_name":"Rua Chile","street_number":"02","neighborhood":"Centro","municipality":"salvador","state":"BA","city":"Salvador","zip_code":"40020000","comment":"sala 802"}},"nickname":"MSR-3PL-MLB","date_created":1573240962,"last_updated":1716833972665,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-17;OK;{"id":1016190969,"display_name":"Murici","name":"Murici Transportes","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514174613,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101754","alias":"muricitransportes","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"24657266000170"},"attributes":{"ie":"140762905116","rntrc":"50213355","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3518697119,"street_name":"RUA CACHOEIRA DO SUL","street_number":"495","neighborhood":"VILA JAGUARA","municipality":"São Paulo","state":"SP","city":"São Paulo","zip_code":"05117010","comment":"LOTE D QUADRA7"}},"nickname":"MURICI2-3PL-MLB","date_created":1579018068,"last_updated":1718309656643,"carrier_creator_id":null,"carrier_updater_id":"ext_aristefa","carrier_status_modifier_id":null,"status_modified_at":null}
-18;OK;{"id":59903397,"display_name":"RodaCoop","name":"Cooperativa dos Transportadores Autônomos de Cargas, Passageiros e Serviços de Logística RodaCoop ","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":628400734,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021491","alias":"RodaCoop","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"37828375000154"},"attributes":{"ie":"0037890070098","rntrc":"52998666","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216527174,"street_name":"Rua Elce Ribeiro","street_number":"201","neighborhood":"São João Batista (Venda Nova)","municipality":"Belo Horizonte","state":"MG","city":"Belo Horizonte","zip_code":"31515190"}},"nickname":"RODACOOP-3PL-MLB","date_created":1597854156,"last_updated":1716834019429,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-19;OK;{"id":454673898,"display_name":"RIOBRANQUENSE","name":"COOPERATIVA RIOBRANQUENSE DE TRANSPORTES LTDA","roles":["LAST_MILE"],"user_id":476429946,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020151","alias":"cooperativariobranquensedetransportesltda","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"86442720000122"},"attributes":{"ie":"7208816380001","rntrc":"00426884","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216538355,"street_name":"MELO BARRETO","street_number":"2467","neighborhood":"COLONIA","municipality":"VISCONDE DO RIO BRANCO","state":"MG","city":"Visconde do Rio Branco","zip_code":"36520000"}},"nickname":"RIOBRANQUENSE-3PL-MLB","date_created":1570106802,"last_updated":1716834033660,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-20;OK;{"id":1011802787,"display_name":"CargoBR","name":"CARGOBR","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514172609,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101631","alias":"cargobr","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"31548672000160"},"attributes":{"ie":"373249855110","rntrc":"51272966","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":1246150289,"address_line":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI 1730","street_name":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI","street_number":"1730","neighborhood":"ITAQUI","municipality":"ITAPEVI","state":"SP","city":"ITAPEVI","zip_code":"06696110","comment":"GALPAO12"}},"nickname":"CARGO2-3PL-MLB","date_created":1579018018,"last_updated":1716834154503,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-21;Not Found;{"message":"Carrier not found: 154230867200"}
-22;OK;{"id":871405189,"display_name":"RAMPONI","name":"RAMPONI TRANSPORTE E DISTRIBUICAO LTDA","roles":["LAST_MILE"],"user_id":617637434,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021507","alias":"RAMPONI","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"07876361000145"},"attributes":{"ie":"574100661110","rntrc":"44134670","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3129038576,"street_name":"Rua Sinfrônio Costa","street_number":"811","neighborhood":"Centro","municipality":"REGISTRO","state":"SP","city":"Registro","zip_code":"11900000"}},"nickname":"RAMPONI-3PL-MLB","date_created":1596056068,"last_updated":1718893250669,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-23;OK;{"id":652375997,"display_name":"MSR","name":"MSR TRANSPORTE DO BRASIL, REBOQUE & LOCADORA DE VEICULOS EIRELI","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":487570555,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020553","alias":"MSR","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"28809904000181"},"attributes":{"ie":"143899709","rntrc":"51903277","tax_regime":"Normal","crt":3,"counting_regime":"PresumedProfit","address":{"id":3584283900,"street_name":"Rua Chile","street_number":"02","neighborhood":"Centro","municipality":"salvador","state":"BA","city":"Salvador","zip_code":"40020000","comment":"sala 802"}},"nickname":"MSR-3PL-MLB","date_created":1573240962,"last_updated":1716833972665,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-24;OK;{"id":1016190969,"display_name":"Murici","name":"Murici Transportes","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514174613,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101754","alias":"muricitransportes","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"24657266000170"},"attributes":{"ie":"140762905116","rntrc":"50213355","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3518697119,"street_name":"RUA CACHOEIRA DO SUL","street_number":"495","neighborhood":"VILA JAGUARA","municipality":"São Paulo","state":"SP","city":"São Paulo","zip_code":"05117010","comment":"LOTE D QUADRA7"}},"nickname":"MURICI2-3PL-MLB","date_created":1579018068,"last_updated":1718309656643,"carrier_creator_id":null,"carrier_updater_id":"ext_aristefa","carrier_status_modifier_id":null,"status_modified_at":null}
-25;OK;{"id":59903397,"display_name":"RodaCoop","name":"Cooperativa dos Transportadores Autônomos de Cargas, Passageiros e Serviços de Logística RodaCoop ","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":628400734,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600021491","alias":"RodaCoop","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"37828375000154"},"attributes":{"ie":"0037890070098","rntrc":"52998666","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216527174,"street_name":"Rua Elce Ribeiro","street_number":"201","neighborhood":"São João Batista (Venda Nova)","municipality":"Belo Horizonte","state":"MG","city":"Belo Horizonte","zip_code":"31515190"}},"nickname":"RODACOOP-3PL-MLB","date_created":1597854156,"last_updated":1716834019429,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-26;OK;{"id":454673898,"display_name":"RIOBRANQUENSE","name":"COOPERATIVA RIOBRANQUENSE DE TRANSPORTES LTDA","roles":["LAST_MILE"],"user_id":476429946,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600020151","alias":"cooperativariobranquensedetransportesltda","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"86442720000122"},"attributes":{"ie":"7208816380001","rntrc":"00426884","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":3216538355,"street_name":"MELO BARRETO","street_number":"2467","neighborhood":"COLONIA","municipality":"VISCONDE DO RIO BRANCO","state":"MG","city":"Visconde do Rio Branco","zip_code":"36520000"}},"nickname":"RIOBRANQUENSE-3PL-MLB","date_created":1570106802,"last_updated":1716834033660,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-27;OK;{"id":1011802787,"display_name":"CargoBR","name":"CARGOBR","roles":["LAST_MILE","MILK_RUN","LOGISTICS_FM"],"user_id":514172609,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9600101631","alias":"cargobr","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"31548672000160"},"attributes":{"ie":"373249855110","rntrc":"51272966","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":1246150289,"address_line":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI 1730","street_name":"RODOVIA CORONEL-POLICIA MILITAR NELSON TRANCHESI","street_number":"1730","neighborhood":"ITAQUI","municipality":"ITAPEVI","state":"SP","city":"ITAPEVI","zip_code":"06696110","comment":"GALPAO12"}},"nickname":"CARGO2-3PL-MLB","date_created":1579018018,"last_updated":1716834154503,"carrier_creator_id":null,"carrier_updater_id":null,"carrier_status_modifier_id":null,"status_modified_at":null}
-28;OK;{"id":1542308672,"display_name":"Kangu Logistics","name":"Kangu","roles":["MILK_RUN","LAST_MILE","LOGISTICS_FM"],"user_id":515152232,"pictures":null,"site_id":"MLB","services":null,"status":"active","is_test":false,"sap_provider_id":"9699191602","alias":"kangu","type":"3PL","person_type":null,"identification":{"type":"CNPJ","value":"30227267000187"},"attributes":{"ie":"120540242118","rntrc":"51843555","tax_regime":"Normal","crt":3,"counting_regime":"RealProfit","address":{"id":4941152020,"street_name":"Avenida dos Autonomistas","street_number":"900","neighborhood":"Vila Yara","state":"SP","city":"Osasco","zip_code":"06020012","comment":"ANDAR 2 SALA 401 A 406"}},"nickname":"KANGU-3PL-MLB","date_created":1579207422,"last_updated":1717517855732,"carrier_creator_id":null,"carrier_updater_id":"ext_samifran","carrier_status_modifier_id":null,"status_modified_at":null}
+2;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+4;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+1;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+3;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+5;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+6;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+7;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+8;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+9;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+11;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+10;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+12;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+13;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+14;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+16;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+15;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+17;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+19;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+18;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+20;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+21;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+23;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+22;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+24;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+25;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+26;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+28;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+27;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+29;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+32;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+31;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+30;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+33;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+35;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+34;OK;{"id":"157583224","type":"last_mile","tax":{"icms":{"tax_value":35.5,"total_value":296.5},"iss":{"total_value":106.75},"total_value":403.25}}
+
+36;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+37;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+38;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+39;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+40;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+41;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+43;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+42;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+44;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+45;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+46;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+47;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+48;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+49;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+50;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+51;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+52;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+53;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+55;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+54;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+56;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+57;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+58;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+59;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+60;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+61;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+62;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+63;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+64;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+65;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+66;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+67;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+68;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+69;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+70;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+71;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+72;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+73;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+74;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+75;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+76;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+77;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+78;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+79;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+80;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+82;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+81;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+83;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+84;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+86;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+85;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+87;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+88;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+89;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+91;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+90;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+92;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+93;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+94;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+95;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+96;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+97;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+98;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+99;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
+100;OK;{"id":"157586710","type":"last_mile","tax":{"icms":{"tax_value":0,"total_value":305.6},"iss":{"total_value":17.4},"total_value":323}}
+
