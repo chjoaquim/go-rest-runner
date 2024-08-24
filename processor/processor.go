@@ -74,7 +74,7 @@ func Run() *strategy.Output {
 	wg.Wait()
 	end := time.Now()
 
-	err = resultWriter.Write("output.csv")
+	err = resultWriter.Write(input.OutputFile)
 	if err != nil {
 		log.Errorf("Errow when trying to write output file. %s", err)
 	}
@@ -100,7 +100,7 @@ func appendOutputs(outputs []strategy.Output, resultWriter writer.Writer, lineRe
 		result := writer.Result{
 			Line:        lineRef,
 			Status:      output.Status,
-			Information: output.Message,
+			Information: fmt.Sprintf("%s", output.Message),
 		}
 
 		resultWriter.AppendResult(result)
@@ -137,5 +137,6 @@ func mapCSVToVariables(row []string) map[string]interface{} {
 func buildFactory() strategy.Factory {
 	factory := strategy.Factory{}
 	factory.GetStrategy = strategy.NewGetStrategy()
+	factory.PostStrategy = strategy.NewPostStrategy()
 	return factory
 }

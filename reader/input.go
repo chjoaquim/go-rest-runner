@@ -9,6 +9,7 @@ import (
 
 type Input struct {
 	Name          string `yaml:"name"`
+	OutputFile    string `yaml:"output"`
 	MaxGoroutines int    `yaml:"max-goroutines"`
 	Steps         []Step `yaml:"steps"`
 }

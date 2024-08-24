@@ -6,6 +6,7 @@ type RequestStrategy interface {
 
 type Factory struct {
 	GetStrategy
+	PostStrategy
 }
 
 type Output struct {
@@ -18,6 +19,8 @@ func (sf Factory) Find(requestType string) RequestStrategy {
 	switch requestType {
 	case "GET":
 		return sf.GetStrategy
+	case "POST":
+		return sf.PostStrategy
 	default:
 		return nil
 	}
